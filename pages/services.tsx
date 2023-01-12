@@ -1,5 +1,12 @@
+import Head from "next/head";
+
 const Services =()=>(
-    <h1>Послуги</h1>
+    <>
+        <Head>
+            <title>Послуги</title>
+        </Head>
+        <h1>Послуги</h1>
+    </>
 );
 
 export default Services;

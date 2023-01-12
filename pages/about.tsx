@@ -1,5 +1,12 @@
+import Head from "next/head";
+
 const About =()=>(
-    <h1>Про нас</h1>
+    <>
+        <Head>
+            <title>Про нас</title>
+        </Head>
+        <h1>Про нас</h1>
+    </>
 );
 
 

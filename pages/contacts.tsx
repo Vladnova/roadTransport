@@ -1,5 +1,12 @@
+import Head from "next/head";
+
 const Contacts =()=>(
-    <h1>Контакти</h1>
+    <>  
+        <Head>
+            <title>Контакти</title>
+        </Head>
+        <h1>Контакти</h1>
+    </>
 );
 
 export default Contacts;

@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+};
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+};
