@@ -1,9 +1,21 @@
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 };
 
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 15px;
+};
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 10px;    
+};
+.text {
+    text-transform: uppercase;
+    color: #fff;
 };
